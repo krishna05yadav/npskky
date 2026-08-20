@@ -141,8 +141,8 @@ print(f"Current Model Status: {current_status_str} | Previous Saved Status: {pre
 if current_status_str != previous_status_str:
     print("Trigger switch detected! Sending Telegram push alert...")
 
-    bot_token = os.environ.get('bottoken')
-    chat_id = os.environ.get('chatid')
+    bot_token = os.environ.get('TELEGRAM_TOKEN')
+    chat_id = os.environ.get('CHAT_ID')
 
     message = (
         f"🚨 *NPS STRATEGY SWITCH TRIGGERED* 🚨\n\n"
