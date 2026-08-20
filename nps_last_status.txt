@@ -1,1 +1,1 @@
-Scheme G (Debt)
+Scheme E (Equity)
